@@ -11,10 +11,10 @@ function calculateMoney(ticketSale) {
     }
 
     // if the ticket number is valid
-    var profit = (ticketSale * 120) - (500 + (8 * 50));
+    let profit = (ticketSale * 120) - (500 + (8 * 50));
     return profit;
 }
 
-var profit = calculateMoney(-10);
+let profit = calculateMoney(-10);
 
 console.log(profit);
